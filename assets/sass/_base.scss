@@ -1,0 +1,43 @@
+body {
+    background-color: $celeste;
+    font-family: $general;
+}
+
+.titles {
+    font-family: $titulos;
+    color: $blanco;
+}
+
+
+/*Navbar*/
+
+nav {
+    background-color: $rosa-fuerte;
+}
+
+.logo {
+    width: 50%;
+    margin: 40px auto;
+}
+
+.fran {
+    width: 300px;
+    border-radius: 25px;
+    top: 100px;
+}
+
+.box {
+    height: 1000px;
+    width: 100%;
+    background-color: $rosa-medio;
+}
+
+.about-me {
+    background-color: $rosa-claro;
+    padding: $espacio;
+}
+
+.projects {
+    background-color: $rosa-fuerte;
+    padding: $espacio;
+}

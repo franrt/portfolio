@@ -5,61 +5,148 @@
     <title>Fran Ruiz-Tagle</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Waiting+for+the+Sunrise" rel="stylesheet">
     <link href="dist/css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo center">Fran Ruiz-Tagle</a>
-            <ul class="left hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li class="active"><a href="collapsible.html">JavaScript</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- nav falta hamburguesa  y link de contacto-->
-
-    <!-- seccion inicio, parallax efect con foto mia y "my passion is..." -->
     <section class="intro">
-        <div class="row">
-            <div class="col s 12 col l12">
-                <div class="col s12 col l6">
-                    <div><img src="dist/img/fran.jpg" alt="foto de fran">
+        <div class="parallax-container">
+            <div class="navbar-fixed">
+                <nav class="transparent z-depth-0">
+                    <div class="nav-wrapper">
+                        <div class="row">
+                            <div class="col s12">
+                                <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+                                <a href="#" class="brand-logo" target="_blank">my portfolio</a>
+                                <ul class="right hide-on-med-and-down">
+                                    <li><a href="#" target="_blank">about</a></li>
+                                    <li><a href="#" target="_blank">projects</a></li>
+                                    <li><a href="#" target="_blank">contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="side-nav" id="mobile-demo">
+                            <li><a href="#" target="_blank">about</a></li>
+                            <li><a href="#" target="_blank">projects</a></li>
+                            <li><a href="#" target="_blank">contact</a></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col s12 col l6">
-                    <div class="about">
-                        <h4 class="title">Hello, i'm Fran</h4>
-                        <p class="about-me">
-                            I´m a junior front end developer and artist from Santiago, Chile. I'm creative, observant and dynamic. I really enjoy teamwork, organizing tasks and solving problems, applying the Agile methodology. I love to learn about new technologies and trends, and
-                            by nature I'm a self-learner. I want to change the world.
-                        </p>
+                </nav>
+            </div>
+
+            <div class="parallax"><img src="dist/img/fondo.png"></div>
+            <div class="center-align"><img src="dist/img/logo-name-b.png" alt="logo-letras" class="logo"></div>
+        </div>
+
+        <section class="about-me">
+
+            <div class="container">
+                <div class="row center-align">
+                    <div class="col s6 offset-s3 valign">
+                        <div>
+                            <div><img src="dist/img/fran2.jpg" class="img-responsive align-center fran"></div>
+                            <div class="card-content">
+                                <h1 class="titles center-align">Hello, I'm fran</h1>
+                                <p class="grey-text text-darken-3 lighten-3">I´m a junior front end developer and artist from Santiago, Chile. I'm creative, observant and dynamic. I really enjoy teamwork, organizing tasks and solving problems, applying the Agile methodology. I love to learn about
+                                    new technologies and trends, and by nature I'm a self-learner. I want to change the world.</p>
+                            </div>
+
+                            <div class="titles likes">I like</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="projects">
+            <div class="row container">
+                <div class="col s12 col l12">
 
-    <!-- seccion about me -->
-    <!-- seccion lo que se - eperiencia -->
-    <!-- seccion lo que quiero - hobbies -->
-    <!-- footer con datos -->
+                    <div class="col s12 col l3">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="dist/img/fran2.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Pinterest-Lab<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Pinterest-Lab<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 col l3">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="dist/img/fran2.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">dribble<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">dribble<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 col l3">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="dist/img/fran2.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Lyft-App<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Lyft-App<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 col l3">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="dist/img/fran2.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">helpii<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">helpii<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <!-- seccion about me -->
+        <!-- seccion lo que se - eperiencia -->
+        <!-- seccion lo que quiero - hobbies -->
+        <!-- footer con datos -->
 
 
 
 
 
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/js/main.js"></script>
+
+
+        <script src="dist/js/script.js"></script>
 </body>
 
 </html>
