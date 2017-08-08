@@ -1,23 +1,43 @@
 body {
-    background-color: $celeste;
+    background-color: $blanco;
     font-family: $general;
+    margin: 0 auto;
 }
 
 .titles {
     font-family: $titulos;
-    color: $blanco;
+    color: $rosa-fuerte;
 }
 
 
 /*Navbar*/
 
-nav {
+.btn {
     background-color: $rosa-fuerte;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    font-family: $titulos;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 18px;
+}
+
+.spanish {
+    color: $rosa-fuerte;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.nav {
+    color: black;
 }
 
 .logo {
-    width: 50%;
-    margin: 40px auto;
+    width: 70%;
+    margin-top: 100px;
 }
 
 .fran {
@@ -26,18 +46,48 @@ nav {
     top: 100px;
 }
 
-.box {
-    height: 1000px;
-    width: 100%;
-    background-color: $rosa-medio;
+.parallax-container {
+    height: 630px;
 }
 
 .about-me {
-    background-color: $rosa-claro;
+    color: $rosa-fuerte;
     padding: $espacio;
 }
 
+.me {
+    font-size: 24px;
+    ;
+}
+
+.skillset {
+    top: 30px;
+}
+
+.skill-ico {
+    font-size: 60px;
+    color: $rosa-fuerte;
+    padding: 20px;
+}
+
 .projects {
-    background-color: $rosa-fuerte;
-    padding: $espacio;
+    color: $rosa-fuerte;
+    top: 30px;
+}
+
+.card {
+    margin: 80px;
+}
+
+footer {
+    background-image: url('/dist/img/Akiko.jpg');
+}
+
+.page-footer {
+    color: black;
+    font-size: 12px;
+    font-weight: bolder;
+    a {
+        color: black;
+    }
 }
