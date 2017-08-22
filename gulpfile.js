@@ -32,8 +32,13 @@ gulp.task('webserver', function() {
         }));
 });
 
-gulp.task('watch', function() {
-    gulp.watch('assets/sass/*.scss', ["style"]);
+gulp.task('watchjs', function() {
+    gulp.watch('assets/js/*.js', ['script']);
 });
 
-gulp.task('default', ['script', 'style', 'webserver', 'watch']);
+
+/**
+ * Le indicamos a gulp cuales son las tareas a ejecutar al correr el comando gulp
+ */
+
+gulp.task('default', ['script', 'style', 'webserver', 'watch', 'watchjs']);

@@ -1,27 +1,32 @@
 body {
     background-color: $blanco;
     font-family: $general;
+    color: $celeste;
     margin: 0 auto;
+    font-size: 1.32em;
 }
 
-.titles {
-    font-family: $titulos;
+.hamburguesa {
     color: $rosa-fuerte;
 }
 
-
-/*Navbar*/
-
-.btn {
-    background-color: $rosa-fuerte;
-    border-radius: 50px;
-    width: 100px;
-    height: 100px;
-    font-family: $titulos;
-    font-weight: bold;
+.barra {
+    color: $rosa-fuerte;
     font-size: 20px;
-    line-height: 25px;
-    padding: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.titles {
+    font-family: $general;
+    color: $rosa-fuerte;
+    font-weight: bolder;
+}
+
+.subtitles {
+    font-family: $general;
+    color: $celeste;
+    font-weight: bolder;
 }
 
 .spanish {
@@ -31,13 +36,20 @@ body {
     padding: 20px;
 }
 
-.nav {
-    color: black;
+.menu-side {
+    ul {
+        li {
+            color: $celeste;
+        }
+    }
 }
 
-.logo {
-    width: 70%;
-    margin-top: 100px;
+.logo-letras {
+    width: 75%;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
 }
 
 .fran {
@@ -47,17 +59,25 @@ body {
 }
 
 .parallax-container {
-    height: 630px;
+    height: 400px;
 }
 
-.about-me {
-    color: $rosa-fuerte;
-    padding: $espacio;
+.card-project {
+    width: 100%;
+    left: auto;
+    top: auto;
 }
 
-.me {
-    font-size: 24px;
-    ;
+.titulo-card {
+    position: relative;
+}
+
+.hackathon {
+    width: 100%;
+}
+
+.helpii {
+    padding: 30px;
 }
 
 .skillset {
@@ -73,10 +93,6 @@ body {
 .projects {
     color: $rosa-fuerte;
     top: 30px;
-}
-
-.card {
-    margin: 80px;
 }
 
 footer {

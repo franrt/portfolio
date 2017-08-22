@@ -7,196 +7,314 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Waiting+for+the+Sunrise" rel="stylesheet">
     <link href="dist/css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
     <section class="intro">
-        <div class="navbar-fixed  parallax-container">
-
+        <div class="navbar parallax-container">
             <nav class="transparent z-depth-0">
                 <div class="nav-wrapper">
-                    <a href="index.html" class="spanish">english</a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-
-                        <li><a href="mailto:francisca.ruiztagle@gmail.com" class="valign-wrapper center-align waves-effect waves-light btn">HIRE ME! <i class="material-icons center">favorite_border</i></a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="mailto:francisca.ruiztagle@gmail.com" class="valign-wrapper center-align waves-effect waves-light btn">HIRE ME! <i class="material-icons center">favorite_border</i></a></li>
-                    </ul>
+                    <a href="#!" class="brand-logo"><img class="hide-on-large-only" src="img/logoN.png" alt="logo fran" height="50" </a>
+                        <ul class="menu-side right hide-on-med-and-down">
+                            <li><a class="barra" href="about">sobre mi</a></li>
+                            <li><a class="barra" href="projects">proyectos</a></li>
+                            <li><a class="barra" href="skills">habilidades</a></li>
+                            <li><a class="barra" class="waves-effect" href="contact">contacto</a></li>
+                            <li><a class="barra" href="index.html">ENGLISH</a></li>
+                        </ul>
                 </div>
             </nav>
 
+            <ul id="slide-out" class="side-nav">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="img/pink.jpg" height="200">
+                        </div>
+                        <a href="#!user"><img class="circle" src="img/fran1.jpg"></a>
+                        <a href="#!name"><span class="white-text name">Fran Ruiz-Tagle</span></a>
+                        <a href="#!email"><span class="white-text email">francisca.ruiztagle@gmail.com</span></a>
+                        <a href="index.html">ENGLISH</a>
+                    </div>
+                </li>
+                <li><a href="about">sobre mi</a></li>
+                <li><a href="projects">proyectos</a></li>
+                <li><a href="skills">habilidades</a></li>
+                <li><a class="waves-effect" href="contact">contacto</a></li>
+                <li><a href="index.html">ESPAÑOL</a></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons hide-on-large-only">menu</i></a>
+
 
             <div class="parallax"><img src="dist/img/akiko.jpg"></div>
-            <div class="center-align"><img src="dist/img/logoN.png" alt="logo-letras" class="logo"></div>
-
+            <div class="center-align"><img class="logo-letras" src="dist/img/logoN.png" alt="logo"></div>
+        </div>
     </section>
 
 
     <!-- seccion about me -->
-    <section class="about-me">
-
+    <section class="about-me" id="about-me">
         <div class="row center-align">
-            <div class="col s12  m12 l12 valign">
-                <div>
-                    <div class="col s12 m6 l6">
-                        <div><img src="dist/img/fran2.jpg" class="img-responsive align-center fran"></div>
+            <div class="col s12 m12 l12">
+                <div class="col s12 m12 l6">
+                    <img src="dist/img/fran2.jpg" class="img-responsive align-center fran">
+                </div>
+                <div class="col s12 m12 l6">
+                    <h1 class="center-align titles">Hola, soy fran</h1>
+                    <p class="me">Soy una front end developer junior y artista de Santiago, Chile. Soy una persona creativa, dinámica y observadora. Disfruto mucho trabajando en equipo, organizando tareas y resolviendo problemas, aplicando la metodología Ágil. Me encanta
+                        aprender sobre nuevas tecnologías y tendencias, soy autodidacta por naturaleza. Quiero cambiar el mundo.</p>
+                    <p class="likes">Lo siguiente que me gustaría aprender es sobre Internte de las Cosas y a programar cosas en Arduino. En mi tiempo libre, me gusta mucho hacer manualidades, armar LEGO y ver Starwars. Tambien me gusta mucho customizar muñecas Blythe.
+                        Amo el sushi!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section class="projects container" id="projects">
+        <div class="row">
+            <div class="col s12 m12 l12 titulo-card">
+                <h1 class="titles center-align">Proyectos</h1>
+                <div class="row">
+                    <div class="col s12 m12 l6 titulo-card">
+                        <h3 class="subtitles">Prototyping</h3>
+                        <p>Estos proyectos son orientados al aprendizaje de frameworks CSS Bootstrap y Materialize.</p>
                     </div>
-                    <div class="col s12 m6 l6">
-                        <div class="card-content">
-                            <h1 class="center-align titles">Hola! soy fran.</h1>
-                            <p class="me">Soy una front end developer junior y artista de Santiago, Chile. Soy una persona creativa, dinámica y observadora. Disfruto mucho trabajando en equipo, organizando tareas y resolviendo problemas, aplicando la metodología Ágil.
-                                Me encanta aprender sobre nuevas tecnologías y tendencias, soy autodidacta por naturaleza. Quiero cambiar el mundo.</p>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12 center-align">
+                        <div class="col s12 m4 l4 center-align">
+                            <div class="card large card-project center-align">
+                                <div class="card-image center-align waves-effect waves-block waves-light">
+                                    <img class="activator" src="dist/img/dobby-spa.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Dobby-Spa<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://franrt.github.io/pinterest-lab/">Ver en Github</a></p>
+                                    <p><a href="https://franrt.github.io/pinterest-lab/">Ver en gh-pages</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Dobby Spa<i class="material-icons right">close</i></span>
+                                    <p>El objetivo de este ejercicio era replicar la maqueta dada, "Dobby Spa", incluyendo su versión responsive.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="likes">En mi tiempo libre, me gusta mucho hacer manualidades, armar LEGO y ver Starwars. Tambien me gusta mucho customizar muñecas Blythe. Amo el sushi!</div>
+                        <div class="col s12 m4 l4 center-align">
+                            <div class="card large card-project center-align">
+                                <div class="card-image align-center waves-effect waves-block waves-light">
+                                    <img class="activator" src="dist/img/save-the-koala-vol2.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Save the Koala vol2<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://nanynn.github.io/dribbble-lab/">Ver en GitHub</a></p>
+                                    <p><a href="https://franrt.github.io/pinterest-lab/">Ver en gh-pages</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Save the Koala vol2<i class="material-icons right">close</i></span>
+                                    <p>El objetivo de este ejercicio era replicar la maqueta dada, para un sitio web de rescate de Koalas. Debía contar con versión responsive. El desafío fue conseguir ordenar con css el valor de la donación.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 center-align">
+                            <div class="card large card-project center-align">
+                                <div class="card-image align-center waves-effect waves-block waves-light">
+                                    <img class="activator" src="dist/img/lyft-flexbox.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Lyft-flexbox<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://nat-fox.github.io/lyft-flexbox/">Ver en Github</a></p>
+                                    <p><a href="https://franrt.github.io/pinterest-lab/">Ver en gh-pages</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Lyft-App<i class="material-icons right">close</i></span>
+                                    <p>En este proyecto debíamos reproducir el sitio de lyft usando flexbox. Con CSS y Javascript, se consigue que el navbar cambié al hacer scroll a una distancia determinada del top.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <!-- fin primera fila -->
 
 
+                <div class="row">
+                    <div class="col s12 m12 l6 titulo-card">
+                        <h3 class="subtitles">Api & Json</h3>
+                        <p>Learning how to use an API from different sources, and how to retrieve information from a JSON format to dinamically fill what was required.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="col s12 m4 l4 center-align">
+                            <div class="card large card-project center-align">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="dist/img/pinterest.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Pinterest-Lab<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://franrt.github.io/pinterest-lab/">Ver en Github</a></p>
+                                    <p><a href="https://franrt.github.io/pinterest-lab/">Ver en gh-pages</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Pinterest-Lab<i class="material-icons right">close</i></span>
+                                    <p>Proyecto final de sprint. Utilizando herramientas de maquetado, jQuery y json, se debía replicar el ordenamiento de imágenes de pinterest. éste se logra con CSS puro. Además de eso, al hacer scroll de la primera mitad
+                                        de las imágenes contenidas en un archivo JSON, se debían cargar la siguiente mitad. Para imitar al máximo el comportamiento de Pinterest, cada vez que se llega al final se cargan nuevas imágenes para poder hacer
+                                        scroll infinito.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 center-align">
+                            <div class="card large card-project center-align">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="dist/img/dribbble-lab.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">dribbble<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://nanynn.github.io/dribbble-lab/">Ver en GitHub</a></p>
+                                    <p><a href="https://franrt.github.io/pinterest-lab/">Ver en gh-pages</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">dribbble<i class="material-icons right">close</i></span>
+                                    <p>Proycto de squad. Utilizando herramientas de maquetado, jQuery, Ajax y github, el squad debía replicar el sitio de dribbblle en su versión desktop. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 center-align">
+                            <div class="card large card-project center-align">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="dist/img/lyft.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Lyft App<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://helpii.github.io/helpii-front/">Ver en Github</a></p>
+                                    <p><a href="https://franrt.github.io/pinterest-lab/">Ver en gh-pages</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Lyft App<i class="material-icons right">close</i></span>
+                                    <p>Trabajo de squad. El equipo debía replicar el sitio móvil de Lyft, con validaciones y llamados a la API de Google Maps.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="events" id="events">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <h1 class="titles">Events & Volunteer Work</h1>
+                <div class="col s12 m12 l12 hackathon">
+                    <div class="row">
+                        <div class="col s12 m12 l12">
+                            <div class="col s12 m12 l6">
+                                <h3 class="subtitles">Angelhack + Bci Labs Hackathon</h3>
+                                <p>Asistir al hackathosn organizado por Angelhack, BciLabs y Programadores Chile, fue el primer hito de mi carrera como desarrolladora. Con un grupo de amigas, creamos Helpii, una app de ayuda social. Nuestra visión es hacer
+                                    visible lo invisible. Pasamos un momento increíble, y por primera vez, codeé por más de 30 horas seguidas. También tuve la oportunidad de crear nuestro modelos de negocios, el cual consta de tres etapas. Ganamos el
+                                    reconocimiento de nuestros pares y del jurado, y aprendimos que con muy poco tiempo y recursos, somos capaces de lograr que una muy buena idea se vuelva realidad.
+                                </p>
+                                <div class="col s12 m12 l6">
+                                    <img class="logobci responsive-img" src="dist/img/bcilabs.png" alt="logo bcilabs">
+                                </div>
+                                <div class="col s12 m12 l6">
+                                    <img class="logoangel responsive-img" src="dist/img/angelhack.png" alt="logo angelhack">
+                                </div>
+                                <img class="hackathon materialboxed responsive-img" src="dist/img/fotohackathon.jpg" alt="foto hackathon bcilabs angelhack">
+                            </div>
+                            <div class="col s12 m12 l6">
+                                <div class="helpii container">
+                                    <div class="card responsive-img center-align">
+                                        <div class="card-image waves-effect waves-block waves-light">
+                                            <img class="activator" src="dist/img/helpii.png">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="card-title activator grey-text text-darken-4">helpii<i class="material-icons right">more_vert</i></span>
+                                            <p><a href="https://helpii.github.io/helpii-front/">Ver en Github</a></p>
+                                            <p><a href="https://helpii.github.io/helpii-front/">Ver en gh-pages</a></p>
+                                        </div>
+                                        <div class="card-reveal">
+                                            <span class="card-title grey-text text-darken-4">helpii<i class="material-icons right">close</i></span>
+                                            <p>Hacer visible lo invisible. Helpii permite que te inscribas con tus datos y que desde la app puedas pinnear situaciones que necesitan ayuda inmediata pero que han sido visibilizadas por la sociedad. También
+                                                permite que las mismar personas puedan organizarse y como comunidad ayudar a los demás. También las empresas pueden aportar, ya sea con personas, dinero o materiales para resolver problemas de nuestro entorno.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l12 facebook">
+                    <div class="row">
+                        <div class="col s12 m12 l12">
+                            <h3 class="subtitles">Facebook Developers Circle</h3>
+                            <div class="col s12 m12 l6">
+                                <p>Trabajo como voluntaria en el equipo de Facebook Developer Circle. Aquí tuve la oportunidad de ayudar a la organización del evento, dando la bienvenida a los asistentes, sirviendo alimentos y apoyando en todo lo que se
+                                    necesitara.g that was needed. Fue una experiencia muy entretenida en la que pude conocer a más personas de la comunidad de desarrolladores. Ahora espero ansiosa nuestro próximo evento.</p>
+                                <img class="logoface responsive-img" src="dist/img/facebook.jpg" alt="logo facebook developers circle">
+                            </div>
+                            <div class="col s12 m12 l6">
+                                <img class="fotoface responsive-img" src="dist/img/facedev.jpg" alt="logo facebook developers circle">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="projects">
-        <div class="row">
-            <div class="col s12 m12 l12">
-
-                <h1 class="titles center-align">Proyectos</h1>
-                <div class="row">
-                    <div class="col s12 m6 l6">
-                        <div class="card large">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="dist/img/pinterest.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Pinterest-Lab<i class="material-icons right">more_vert</i></span>
-                                <p><a href="https://franrt.github.io/pinterest-lab/">Ver en Github</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Pinterest-Lab<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col s12 m6 l6">
-                        <div class="card large">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="dist/img/dribbble-lab.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">dribbble<i class="material-icons right">more_vert</i></span>
-                                <p><a href="https://nanynn.github.io/dribbble-lab/">Ver en GitHub</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">dribbble<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row">
-
-                    <div class="col s12 m6 l6">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="dist/img/lyft.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Lyft-App<i class="material-icons right">more_vert</i></span>
-                                <p><a href="https://nat-fox.github.io/lyft-app/">Ver en Github</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Lyft-App<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col s12 m6 l6">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="dist/img/helpii.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">helpii<i class="material-icons right">more_vert</i></span>
-                                <p><a href="https://helpii.github.io/helpii-front/">Ver en Github</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">helpii<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-    </section>
-
-    <section class="skillset">
+    <section class="skillset" id="skillset">
 
         <div class="row">
             <div class="col s12 m12 l12">
                 <h1 class="titles center-align">Habilidades</h1>
-
-
                 <div class="row center-align skills">
-
-                    <i class="devicon-html5-plain-wordmark skill-ico"></i>
-
-                    <i class="devicon-javascript-plain skill-ico"></i>
-
-                    <i class="devicon-css3-plain-wordmark skill-ico"></i>
-
-                    <i class="devicon-github-plain-wordmark skill-ico"></i>
-
-                    <i class="devicon-jquery-plain-wordmark skill-ico"></i>
-
-                    <i class="devicon-bootstrap-plain skill-ico"></i>
-
-                    <i class="devicon-sass-original skill-ico"></i>
-
-                    <i class="devicon-gulp-plain skill-ico"></i>
-
-                    <i class="devicon-photoshop-line skill-ico"></i>
-
-                    <i class="devicon-illustrator-line skill-ico"></i>
+                    <div class="col s12 m12 l12">
+                        <i class="devicon-html5-plain-wordmark skill-ico"></i>
+                        <i class="devicon-javascript-plain skill-ico"></i>
+                        <i class="devicon-css3-plain-wordmark skill-ico"></i>
+                        <i class="devicon-github-plain-wordmark skill-ico"></i>
+                        <i class="devicon-jquery-plain-wordmark skill-ico"></i>
+                    </div>
                 </div>
-
+                <div class="row center-align skills">
+                    <div class="col s12 m12 l12">
+                        <i class="devicon-bootstrap-plain skill-ico"></i>
+                        <i class="devicon-sass-original skill-ico"></i>
+                        <i class="devicon-gulp-plain skill-ico"></i>
+                        <i class="devicon-photoshop-line skill-ico"></i>
+                        <i class="devicon-illustrator-line skill-ico"></i>
+                    </div>
+                </div>
             </div>
-
-        </div>
-
     </section>
 
     <section>
-        <footer class="page-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col l6  s12">
-                        <h5>Contáctame!</h5>
-                        <p class="text-lighten-4">Me encantaría trabajar contigo, escríbeme!</p>
-                    </div>
-                    <div class="col l4 offset-l2 s12">
-                        <h5>Social Media</h5>
-                        <ul>
-                            <li><a href="#!">LinkedIn</a></li>
-                            <li><a href="#!">GitHub</a></li>
-                            <li><a href="mailto:francisca.ruiztagle@gmail.com">francisca.ruiztagle@gmail.com</a></li>
-                        </ul>
-                    </div>
-                    <div class="row center-align">
-                        <div class="col s12 col l12">
-                            <h6>Made with <i class="material-icons">favorite_border</i>and Gulp | © 2017 Fran Ruiz-Tagle</h6>
-                        </div>
+        <footer class="page-footer" id="footer">
+            <div class="row">
+                <div class="col s12 m12 l6">
+                    <h4 class="subtitles">Contáctame!</h4>
+                    <h5>Me encantaría que trabajemos juntos. Por favor, contáctame.</h5>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h4 class="subtitles">Social Media</h4>
+                    <ul>
+                        <li><a href="#!"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a></li>
+                        <li><a href="#!"><i class="devicon-github-plain-wordmark"></i>GitHub</a></li>
+                        <li><a href="mailto:francisca.ruiztagle@gmail.com">francisca.ruiztagle@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="row center-align">
+                    <div class="col s12 col l12">
+                        <h6>Hecho con <i class="material-icons">favorite_border</i>and Gulp | © 2017 Fran Ruiz-Tagle</h6>
                     </div>
                 </div>
             </div>
         </footer>
-
     </section>
 
     <script src="dist/js/script.js"></script>
